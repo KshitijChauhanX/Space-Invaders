@@ -31,7 +31,7 @@ enemyY=[]
 enemyX_change=[]
 enemyY_change=[]
 
-no_of_enemies=9
+no_of_enemies=7
 for i in range(no_of_enemies):
     enemyImg.append(pygame.image.load('enemy.png'))
     enemyX.append(random.randint(0,735)) #spaws randomly
